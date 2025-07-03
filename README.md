@@ -5,7 +5,7 @@
 
 This project performs real-time age and gender detection using OpenCV's Deep Neural Network (DNN) module and pre-trained Caffe models. It captures video from your webcam, detects faces, and predicts the age group and gender of the detected person.
 
- Features
+ Features::
 
 
  
@@ -22,7 +22,7 @@ Bounding boxes and labels displayed on the video feed
 
 
 
-Project Structure:
+Project Structure::
 
 
 .
@@ -38,7 +38,7 @@ Project Structure:
 
 
 
-Requirements
+Requirements::
 
 
 
@@ -50,7 +50,7 @@ OpenCV (preferably 4.x)
 
 
 
- Models Used
+ Models Used::
 
  
 Face Detection: opencv_face_detector.pb & opencv_face_detector.pbtxt
@@ -65,7 +65,7 @@ All models are based on Caffe and are publicly available through OpenCV's model 
  
  
  
- Sample Output
+ Sample Output::
 
 
 
