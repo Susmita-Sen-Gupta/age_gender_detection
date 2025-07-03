@@ -10,13 +10,21 @@ This project performs real-time age and gender detection using OpenCV's Deep Neu
 
  
 Real-time face detection from webcam
+
+
 Age prediction using a pre-trained Caffe model
+
+
 Gender prediction using a pre-trained Caffe model
+
+
 Bounding boxes and labels displayed on the video feed
 
 
 
 Project Structure:
+
+
 .
 ├── main.py                  # Main Python script
 ├── README.md              
@@ -28,6 +36,8 @@ Project Structure:
 ├── gender_net.caffemodel
 
 
+
+
 Requirements
 
 
@@ -35,6 +45,7 @@ Requirements
 
 
 Python 3.6+
+
 OpenCV (preferably 4.x)
 
 
@@ -43,10 +54,17 @@ OpenCV (preferably 4.x)
 
  
 Face Detection: opencv_face_detector.pb & opencv_face_detector.pbtxt
+
 Age Detection: age_net.caffemodel & age_deploy.prototxt
+
 Gender Detection: gender_net.caffemodel & gender_deploy.prototxt
+
 All models are based on Caffe and are publicly available through OpenCV's model zoo.
 
+
+ 
+ 
+ 
  Sample Output
 
 
