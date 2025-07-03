@@ -21,23 +21,6 @@ Gender prediction using a pre-trained Caffe model
 Bounding boxes and labels displayed on the video feed
 
 
-
-Project Structure::
-
-
-.
-├── main.py                  # Main Python script
-├── README.md              
-├── opencv_face_detector.pb
-├── opencv_face_detector.pbtxt
-├── age_deploy.prototxt
-├── age_net.caffemodel
-├── gender_deploy.prototxt
-├── gender_net.caffemodel
-
-
-
-
 Requirements::
 
 
@@ -62,7 +45,6 @@ Gender Detection: gender_net.caffemodel & gender_deploy.prototxt
 All models are based on Caffe and are publicly available through OpenCV's model zoo.
 
 
- 
  
  
  Sample Output::
