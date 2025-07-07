@@ -1,6 +1,6 @@
 #real_time_age_gender_detection
 
-**Age and Gender Detection using OpenCV DNN**
+**Real Time Age and Gender Detection using OpenCV DNN**
 
 
 This project performs real-time age and gender detection using OpenCV's Deep Neural Network (DNN) module and pre-trained Caffe models. It captures video from your webcam, detects faces, and predicts the age group and gender of the detected person.
